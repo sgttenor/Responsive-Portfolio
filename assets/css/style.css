@@ -218,6 +218,7 @@ body {
   
 
   @media  screen and (max-width: 980px){
+
     #main-container {
         width: 70%;
         
@@ -227,16 +228,23 @@ body {
 }
 
 @media screen  and  (max-width: 768px) {
-    .masthead {
-        padding-right: 75px;
-    }
+  .masthead {
+    position: static;
+  }
+  
 }
-
 
 
 @media screen and (max-width: 648px){
 
-    .masthead {
-        padding-right: 100px;
-    }
+  .masthead {
+    position: static;
+  }
+
+  #main-container {
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+   
 }
